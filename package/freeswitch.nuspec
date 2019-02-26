@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>freeswitch</id>
+    <version>1.8.5</version>
+    <title>FreeSWITCH</title>
+    <authors>FreeSwitch</authors>
+    <owners>UXabre</owners>
+    <projectUrl>https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+Explained</projectUrl>
+	<docsUrl>https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+Explained</docsUrl>
+	<iconUrl>https://www2.freeswitch.com/wp-content//uploads/2018/11/fs-blue-alt-logo_sm.png</iconUrl>
+	<licenseUrl>https://freeswitch.org/confluence/display/FREESWITCH/Licensing</licenseUrl>
+	<packageSourceUrl>https://github.com/UXabre/chocolatey.freeswitch</packageSourceUrl>
+	<projectSourceUrl>https://freeswitch.org/stash/projects/FS/repos/freeswitch/browse</projectSourceUrl>
+	<mailingListUrl>https://freeswitch.org/confluence/display/FREESWITCH/Using+the+Mailing+List</mailingListUrl>
+	<bugTrackerUrl>https://freeswitch.org/jira/projects/FS/issues/</bugTrackerUrl >
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FreeSWITCH is designed to route and interconnect popular communication protocols using audio, video, text, or any other form of media. First released in January 2006, FreeSWITCH has grown to become the world’s premier open source soft-switch platform. This versatile platform is used to power voice, video, and chat communications on devices ranging from single calls on a Raspberry Pi to large server clusters handling millions of calls. FreeSWITCH powers a number of commercial products from start-ups to Carriers.</description>
+    <summary>FreeSWITCH™ is an open source carrier-grade telephony platform implemented as a back-to-back user agent. Because of this design it can perform a great number of different tasks from a PBX to transit switch, TTS (text-to-speech) conversion, audio and video conferencing host, and even a VoIP telephone and more.</summary>
+	<releaseNotes>https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+1.8.x+Release+notes#FreeSWITCH1.8.xReleasenotes-1.8.5(Releasedate:24Jan2019)</releaseNotes>
+    <tags>freeswitch telephony SIP</tags>
+	<dependencies>
+		<dependency id="kb2999226" version="1.0.20181019"/>
+	</dependencies>
+  </metadata>
+</package>
